@@ -1,10 +1,219 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8" />
-		<title></title>
-	</head>
-	<body>
+		<meta charset="utf-8" >
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" >
+		<meta name="viewport" content="width = device-width, initial-scale = 1">
+		<title>Home | 精科精密部件（惠州）有限公司</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		
+		<link href='https://fonts.googleapis.com/css?family=Pacifico' rel="stylesheet" type="text/css">
+		
+		<style type="text/css">
+			body, html {
+				/*font-size: 62.5%*/;
+				width: 100%;
+				margin: 0;
+				font-family: arial, sans-serif;
+			}
+			#allmap{
+				width:450px;
+				height:400px;
+				margin-left: 250px;
+				}
+			#websiteTitle{
+				/*font-size: 10em;
+				vertical-align: middle;
+				font-family: 'Pacifico', cursive;*/
+				padding-top: 30px;
+				/*color: #191970;*/
+				background-color: white;
+				font-size: 1em;
+			}
+			/* Carousel Styling */
+			.slider1{
+				background-image: url(img/YOKE.JPG);
+				height: 600px;
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+			}
+			.slider2{
+				background-image: url(img/听筒网.jpg);
+				height: 600px;
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+			}
+			.slider3{
+				background-image: url(img/冲压现场.JPG);
+				height: 600px;
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+			}
+			.carousel-caption h1{
+				font-size: 3.4em;
+				font-family: 'Pacifico', cursive;
+				padding-bottom: .4em;
+			}
+			.carousel-caption p{
+				font-size: 1em;
+			}
+			.navbar a{
+				font-size: 1em;
+			}
+			.jumbotron {
+				background-color: white;
+			}
+			#slogan{
+				font-family: "微软雅黑";
+				font-size: 2.5em;
+			}
+			video {
+				object-fit: fill;
+			}
+		</style>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6Uk4j2KT3ozWTpztHvGIIeVeUGBfNhRc"></script>
+		
+	<body>
+		<div>
+			<nav class="navbar navbar-default navbar-fixed-top" style="background-color: white;">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+							<li><a href="#">Upload Tool</a></li>
+						</ul>
+						<form class="navbar-form navbar-right" role="search">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Search">
+							</div>
+							<button type="submit" class="btn btn-default">Submit</button>
+						</form>
+					</div>
+				</div>
+			</nav>
+			<div class="page-header text-center jumbotron">
+				<p>精科精密部件（惠州）有限公司</p>
+			</div>
+			<div class="jumbotron text-center">
+				<h1 style="font-size: 6em;">精科</h1>
+				<p id="slogan">Make the best product</p>
+			</div>
+		
+			<div id="theCarousel" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target='#theCarousel' data-slide-to="0" class="active"></li>
+					<li data-target='#theCarousel' data-slide-to="1"></li>
+					<li data-target='#theCarousel' data-slide-to="2"></li>
+				</ol>
+				
+				<div class="carousel-inner">
+					<div class="item active">
+						<div class="slider1"></div>
+						<div class="carousel-caption">
+							<h1>YOKE</h1>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="slider2"></div>
+						<div class="carousel-caption">
+							<h1>听筒网</h1>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="slider3"></div>
+						<div class="carousel-caption">
+							<h1>冲压现场</h1>
+						</div>
+					</div>
+				</div>
+				
+				<!--<a class="left carousel-control container" href="#theCarousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				<a class="right carousel-control container" href="#theCarousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>-->
+							
+			</div>
+			
+			<div>
+				<video height="600" width="100%" autoplay>
+					<source src="mov/city.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+			
+			<div style="background-color: #F5F5F5;">
+				<div class="container text-center">
+					<h1 style="padding-top: 30px;">精科精密部件（惠州）有限公司</h1>
+					<h2>关于我们</h2>
+					<div class="jumbotron" style="background-color: #F5F5F5;">
+					<p style="font-size: 1.5em;">本公司是港资独资企业，为世界3大激光头生产企业SONY、HITCHI、SANYO配套生产精密冲压件及精密螺丝，为世界知名电器生产商HAGER、GE、奇胜生产灭弧室（自动组装）等精密冲压件，为SONY的数码相机、手机用LCD配套生产不锈钢框架，具有高精密冲压模具制作、产品生产的经验。</p>
+					</div>
+				</div>
+				<hr />
+				<div>
+					<div class="row" style="margin-bottom: 40px;">
+						<div class="col-lg-6" id = "allmap"></div>
+						<div class = "col-lg-6" style="margin-left: 10px;">
+							<h1>联系我们</h1>
+							<p style="font-size: 1.5em; padding-top: 15px;">广东惠州市惠州市陈江镇白云山村</p>
+							<p style="font-size: 1.5em;">86-0752-3222981</p>
+						</div>
+					</div>
+					
+					<hr>
+					
+					<div class="container">
+						<p style="font-size: 1em;">©2017 精科精密部件（惠州）有限公司 版权所有</p>
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+		
+		
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>	
+	<script src="js/bootstrap.min.js"></script>
 	</body>
 </html>
+<script type="text/javascript">
+	// 百度地图API功能
+	var map = new BMap.Map("allmap");    // 创建Map实例
+	var point = new BMap.Point(116.331398,39.897445);
+	map.centerAndZoom(point, 16);
+	// 创建地址解析器实例
+		var myGeo = new BMap.Geocoder();
+		// 将地址解析结果显示在地图上,并调整地图视野
+		myGeo.getPoint("精科精密部件(惠州)有限公司", function(point){
+			if (point) {
+				map.centerAndZoom(point, 16);
+				map.addOverlay(new BMap.Marker(point));
+				var opts = {
+					width : 100,     // 信息窗口宽度
+					height: 50,     // 信息窗口高度
+					title : "精科精密部件(惠州)有限公司" , // 信息窗口标题
+					enableMessage:true,//设置允许信息窗发送短息
+				}
+				var infoWindow = new BMap.InfoWindow("地址： 广东省惠州市惠城区陈江白云山村", opts);  // 创建信息窗口对象 
+				map.openInfoWindow(infoWindow,point); //开启信息窗口
+			}else{
+				alert("您选择地址没有解析到结果!");
+			}
+		}, "北京市");
+	
+	map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
+	map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+</script>
